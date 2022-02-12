@@ -19,7 +19,7 @@ export const PositionTable = (props) => {
             name: 'Total value',
             selector: stock => `$${stock.totalValue.toLocaleString()}`
         }
-    ];
+    ]; // test commit
     const data = props.stocks;
 
     return (<div className={styles.root}>
